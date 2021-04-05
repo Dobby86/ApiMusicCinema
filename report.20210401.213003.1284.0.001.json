@@ -1,0 +1,535 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210401.213003.1284.0.001.json",
+    "dumpEventTime": "2021-04-01T21:30:03Z",
+    "dumpEventTimeStamp": "1617305403322",
+    "processId": 1284,
+    "threadId": null,
+    "cwd": "C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\ApiMusic",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\ApiMusic\\node_modules\\.bin\\\\..\\nuxt\\bin\\nuxt.js"
+    ],
+    "nodejsVersion": "v12.16.2",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.2",
+      "v8": "7.8.279.23-node.34",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1e",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.2/node-v12.16.2.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.2/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1023921,
+        "nice": 0,
+        "sys": 1658718,
+        "idle": 27799687,
+        "irq": 369375
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 831265,
+        "nice": 0,
+        "sys": 848859,
+        "idle": 28802062,
+        "irq": 24828
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 5478781,
+        "nice": 0,
+        "sys": 1177093,
+        "idle": 23826312,
+        "irq": 26703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 787062,
+        "nice": 0,
+        "sys": 557718,
+        "idle": 29137406,
+        "irq": 14843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 2327718,
+        "nice": 0,
+        "sys": 2315843,
+        "idle": 25838625,
+        "irq": 11875
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1852734,
+        "nice": 0,
+        "sys": 2211968,
+        "idle": 26417468,
+        "irq": 11234
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 864093,
+        "nice": 0,
+        "sys": 624109,
+        "idle": 28993968,
+        "irq": 15765
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1067343,
+        "nice": 0,
+        "sys": 617875,
+        "idle": 28796953,
+        "irq": 17640
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 2200328,
+        "nice": 0,
+        "sys": 2354781,
+        "idle": 25927031,
+        "irq": 13671
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 2092812,
+        "nice": 0,
+        "sys": 2231375,
+        "idle": 26157953,
+        "irq": 12609
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 880359,
+        "nice": 0,
+        "sys": 728546,
+        "idle": 28873234,
+        "irq": 17546
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1036625,
+        "nice": 0,
+        "sys": 1432843,
+        "idle": 28012656,
+        "irq": 15656
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 937312,
+        "nice": 0,
+        "sys": 784656,
+        "idle": 28760156,
+        "irq": 15375
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 962500,
+        "nice": 0,
+        "sys": 757468,
+        "idle": 28762156,
+        "irq": 14296
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1262406,
+        "nice": 0,
+        "sys": 992859,
+        "idle": 28226859,
+        "irq": 15125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7820X CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 975546,
+        "nice": 0,
+        "sys": 827890,
+        "idle": 28678687,
+        "irq": 13968
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e0:4f:43:6f:c5:18",
+        "address": "2001:b07:646c:813:d455:684f:ebb6:ff59",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e0:4f:43:6f:c5:18",
+        "address": "2001:b07:646c:813:d475:ac92:8032:b9ca",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e0:4f:43:6f:c5:18",
+        "address": "fe80::d455:684f:ebb6:ff59",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e0:4f:43:6f:c5:18",
+        "address": "192.168.1.54",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-5LP28I5"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6ca572309",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+11577"
+    },
+    {
+      "pc": "0x00007ff6ca576869",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+29337"
+    },
+    {
+      "pc": "0x00007ff6ca5756e8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24856"
+    },
+    {
+      "pc": "0x00007ff6ca69dd82",
+      "symbol": "v8::base::CPU::has_sse+59378"
+    },
+    {
+      "pc": "0x00007ff6caeba27e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6caea2351",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6cad6e8ac",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6cad79ae0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6cad76604",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6cad6be03",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6cad6a474",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff6cad8b67d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff6caaf13d1",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff6cb30730d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff6cb30823d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+550525"
+    },
+    {
+      "pc": "0x0000033ff28c2b8a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2157621248,
+    "totalCommittedMemory": 2157621248,
+    "usedMemory": 2144232864,
+    "availableMemory": 47347024,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 7340032,
+        "committedMemory": 7340032,
+        "capacity": 3666096,
+        "used": 1421176,
+        "available": 2244920
+      },
+      "old_space": {
+        "memorySize": 2068979712,
+        "committedMemory": 2068979712,
+        "capacity": 2065798224,
+        "used": 2064556264,
+        "available": 1241960
+      },
+      "code_space": {
+        "memorySize": 2789376,
+        "committedMemory": 2789376,
+        "capacity": 2243040,
+        "used": 2243040,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6033408,
+        "committedMemory": 6033408,
+        "capacity": 4050800,
+        "used": 4050800,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 71307264,
+        "committedMemory": 71307264,
+        "capacity": 71113160,
+        "used": 71113160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 909312,
+        "committedMemory": 909312,
+        "capacity": 815616,
+        "used": 815616,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 3666096,
+        "used": 0,
+        "available": 3666096
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 123.593,
+    "kernelCpuSeconds": 8.625,
+    "cpuConsumptionPercent": 3.49506,
+    "maxRss": 2307538944,
+    "pageFaults": {
+      "IORequired": 1693681,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6594,
+      "writes": 230
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\ApiMusic",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Utente\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_8288_OZUKYVRTZBSHINZJ",
+    "COLOR": "1",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-5LP28I5",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "notepad.exe",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\Utente\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\Utente",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Utente",
+    "INIT_CWD": "C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\ApiMusic",
+    "LANG": "it_IT.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Utente\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-5LP28I5",
+    "NODE": "E:\\node\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_EXE": "E:\\node\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Users\\Utente\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "run-script",
+    "npm_config_cache": "C:\\Users\\Utente\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\Utente\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_init.module": "C:\\Users\\Utente\\.npm-init.js",
+    "npm_config_init_module": "C:\\Users\\Utente\\.npm-init.js",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\Utente\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_prefix": "C:\\Users\\Utente\\AppData\\Roaming\\npm",
+    "npm_config_python": "c:\\Python\\27\\python.exe",
+    "npm_config_userconfig": "C:\\Users\\Utente\\.npmrc",
+    "npm_config_user_agent": "npm/7.6.0 node/v12.16.2 win32 x64",
+    "npm_execpath": "C:\\Users\\Utente\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "dev",
+    "npm_lifecycle_script": "nuxt",
+    "npm_node_execpath": "E:\\node\\node.exe",
+    "npm_package_json": "C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\ApiMusic\\package.json",
+    "npm_package_name": "ApiMusic",
+    "npm_package_version": "1.0.0",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\Utente\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OneDrive": "C:\\Users\\Utente\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\Utente\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\ApiMusic\\node_modules\\.bin;C:\\Users\\Utente\\Desktop\\ApiVueJsNuxt\\node_modules\\.bin;C:\\Users\\Utente\\Desktop\\node_modules\\.bin;C:\\Users\\Utente\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Utente\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin;C:\\Program Files\\Razer\\ChromaBroadcast\\bin;C:\\Program Files (x86)\\Razer Chroma SDK\\bin;C:\\Program Files\\Razer Chroma SDK\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Utente\\AppData\\Local\\Microsoft\\WindowsApps;E:\\node\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Symfony;E:\\MAMP\\bin\\php\\php7.3.7;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Users\\Utente\\.windows-build-tools\\python27\\;C:\\Users\\Utente\\.windows-build-tools\\python27\\;C:\\Users\\Utente\\.windows-build-tools\\python27\\;C:\\Users\\Utente\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Utente\\AppData\\Roaming\\npm;C:\\Users\\Utente\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Utente\\AppData\\Local\\atom\\bin;C:\\Users\\Utente\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Utente\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Utente\\AppData\\Local\\gitkraken\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 85 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "5504",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Utente\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Utente\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.55.0",
+    "TMP": "C:\\Users\\Utente\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-5LP28I5",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-5LP28I5",
+    "USERNAME": "Utente",
+    "USERPROFILE": "C:\\Users\\Utente",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\Utente\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\Utente\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-ba94e4f181-sock",
+    "VUE_ENV": "server",
+    "windir": "C:\\WINDOWS",
+    "_applied": "true"
+  },
+  "sharedObjects": [
+    "E:\\node\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
