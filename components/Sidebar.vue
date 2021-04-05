@@ -12,13 +12,13 @@
                         <NuxtLink to ="/">Home</NuxtLink>
                     </li>
                     <li class="nav-item active">
-                        <NuxtLink to="/apiGen">Api</NuxtLink>
+                        <NuxtLink to="/music">Music</NuxtLink>
                     </li>
                     <li class="nav-item">
                         <NuxtLink to ="/plusless">PlusLess</NuxtLink>
                     </li>
                     <li class="nav-item">
-                        <NuxtLink to ="/test">Test</NuxtLink>
+                        <NuxtLink to ="/cinema">Cinema</NuxtLink>
                     </li>
                     <li class="nav-item">
                         <NuxtLink to ="/login">Login</NuxtLink>

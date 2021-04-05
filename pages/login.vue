@@ -75,9 +75,9 @@ export default {
         background: -webkit-linear-gradient(-45deg, #ff7e00 0%, #a016f7 100%);
         background: linear-gradient(135deg, #ff7e00 0%, #a016f7 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7e00', endColorstr='#a016f7', GradientType=1);
-            border-radius:5px;
-            position:relative;
-            font-family: 'Libre Franklin', sans-serif;
+        border-radius:5px;
+        position:relative;
+        font-family: 'Libre Franklin', sans-serif;
     }
 
     

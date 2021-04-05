@@ -8,11 +8,11 @@
       </h1>
       <div class="links">
 
-        <NuxtLink to="/apiGen">Api |</NuxtLink>
+        <NuxtLink to="/music">Music |</NuxtLink>
 
         <NuxtLink to ="/plusless">PlusLess |</NuxtLink>
 
-         <NuxtLink to ="/test">Test |</NuxtLink>
+         <NuxtLink to ="/cinema">Cinema |</NuxtLink>
         
       </div>
     </div>

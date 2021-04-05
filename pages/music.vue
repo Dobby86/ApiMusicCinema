@@ -7,7 +7,7 @@
     <div class="col-md-12">
         
         <div class="card">
-            <div class="card-header"> <h3> Mostra gli Album</h3></div>
+            <div class="card-header"> <h3> Albums</h3></div>
                     <div class="card-body">
                             <div class="list-group">
                                 <div v-if="loading" class="alert alert-dark" role="alert">
@@ -26,7 +26,7 @@
                                 </ul>
                             
                                 <!-- <a href="#" class="btn btn-primary" @click="invia()">Salva</a> -->
-                                <button @click="invia()" type="button" class="btn btn-primary">Mostra</button>
+                                <button @click="invia()" type="button" class="btn btn-primary">Show Album</button>
                                 
                             </div>
 
@@ -91,6 +91,9 @@ export default {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.btn{
+    font-size: 30px;
 }
 
 .card{

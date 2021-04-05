@@ -1,17 +1,21 @@
 <template>
 <div class="calcolo row">
 
-        <div class="col-6">
-            <button @click="metti('+')" style="font-size:30px; padding:15px">+</button>
-        </div>
-        <h2 style="font-size:50px">{{ conto }}</h2>
+        <div class="col-md-12">
+           <div class="col-md-6">
+                <button @click="metti('+')" style="font-size:30px; padding:15px">Push +</button>
+            </div>
+            <h2 style="font-size:50px">{{ conto }}</h2>
 
-        <h2 :style="styleCss()">{{ limit() }}</h2>
-        
+            <h2 :style="styleCss()">{{ limit() }}</h2>
+            
 
-        <div class="col-6">
-            <button @click="togli('-')" style="font-size:30px; padding:15px">-</button>
+            <div class="col-md-6">
+                <button @click="togli('-')" style="font-size:30px; padding:15px">Push -</button>
+            </div>
+       
         </div>
+
        
 
    
@@ -90,6 +94,8 @@ export default {
 
       <style scoped>
       .calcolo{
-          min-height: 50vh;
+          height: 600px;
+          width: 100%;
+          text-align: center;
       }
       </style>
